@@ -91,14 +91,14 @@ heroku create line-bot-reminder-demo
 git push heroku master
 ```
 
-Setting env
+Set env
 ```bash
 heroku config:set CHANNEL_ACCESS_TOKEN=your_channel_access_token
 heroku config:set CHANNEL_SECRET=your_channel_secret
 heroku config:set USER_ID=your_user_id
 ```
 
-Setting addons
+Set addon Scheduler
 ```bash
 heroku addons:create scheduler:standard
 heroku addons:open scheduler
