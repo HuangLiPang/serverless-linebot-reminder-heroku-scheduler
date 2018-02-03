@@ -1,0 +1,596 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Webhook · line-bot-sdk-nodejs</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.2">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="client.html" />
+    
+    
+    <link rel="prev" href="../guide.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../getting-started.html">
+            
+                <a href="../getting-started.html">
+            
+                    
+                    Getting Started
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="../getting-started/requirements.html">
+            
+                <a href="../getting-started/requirements.html">
+            
+                    
+                    Requirements
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="../getting-started/install.html">
+            
+                <a href="../getting-started/install.html">
+            
+                    
+                    Install
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="../getting-started/basic-usage.html">
+            
+                <a href="../getting-started/basic-usage.html">
+            
+                    
+                    Basic Usage
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../guide.html">
+            
+                <a href="../guide.html">
+            
+                    
+                    Guide
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter active" data-level="1.3.1" data-path="webhook.html">
+            
+                <a href="webhook.html">
+            
+                    
+                    Webhook
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="client.html">
+            
+                <a href="client.html">
+            
+                    
+                    Client
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="typescript.html">
+            
+                <a href="typescript.html">
+            
+                    
+                    TypeScript
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../api-reference.html">
+            
+                <a href="../api-reference.html">
+            
+                    
+                    API Reference
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="../api-reference/client.html">
+            
+                <a href="../api-reference/client.html">
+            
+                    
+                    Client
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="../api-reference/validate-signature.html">
+            
+                <a href="../api-reference/validate-signature.html">
+            
+                    
+                    validateSignature
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="../api-reference/middleware.html">
+            
+                <a href="../api-reference/middleware.html">
+            
+                    
+                    middleware
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4" data-path="../api-reference/exceptions.html">
+            
+                <a href="../api-reference/exceptions.html">
+            
+                    
+                    Exceptions
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.5" data-path="../api-reference/message-and-event-objects.html">
+            
+                <a href="../api-reference/message-and-event-objects.html">
+            
+                    
+                    Message and event objects
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="../../CONTRIBUTING.html">
+            
+                <a href="../../CONTRIBUTING.html">
+            
+                    
+                    Contributing
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" >
+            
+                <a target="_blank" href="https://github.com/line/line-bot-sdk-nodejs/">
+            
+                    
+                    GitHub
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../.." >Webhook</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="webhook">Webhook</h1>
+<p>A webhook server for LINE messaging API is just a plain HTTP(S) server. When
+there is a observable user event, an HTTP request will be sent to a
+pre-configured webhook server.</p>
+<p>About configuration of webhook itself, please refer to <a href="https://developers.line.me/en/docs/messaging-api/reference/#webhooks" target="_blank">Webhook</a>
+of the official document.</p>
+<h2 id="what-a-webhook-server-should-do">What a webhook server should do</h2>
+<ul>
+<li><a href="https://developers.line.me/en/docs/messaging-api/reference/#signature-validation" target="_blank">Signature validation</a></li>
+<li><a href="https://developers.line.me/en/docs/messaging-api/reference/#webhook-event-objects" target="_blank">Webhook event object parsing</a></li>
+</ul>
+<p><strong>Signature validation</strong> is checking if a request is actually sent from real
+LINE servers, not a fraud. The validation is conducted by checking
+the <a href="https://developers.line.me/en/docs/messaging-api/reference/#signature-validation" target="_blank">X-Line-Signature</a> header
+and request body. There is a <a href="../api-reference/validate-signature.html"><code>validateSignature()</code></a>
+function to do this.</p>
+<p><strong>Webhook event object parsing</strong> is literally parsing webhook event objects,
+which contains information of each webhook event. The objects are provided as
+request body in JSON format, so any body parser will work here. For interal
+object types in this SDK, please refer to <a href="../api-reference/message-and-event-objects.html">Message and event objects</a>.</p>
+<p>There is a function to generate a <a href="https://github.com/senchalabs/connect" target="_blank">connect</a> middleware,
+<a href="../api-reference/middleware.html"><code>middleware()</code></a>, to conduct both of them. If
+your server can make use of connect middlewares, such as <a href="https://expressjs.com/" target="_blank">Express</a>,
+using the middleware is a recommended way to build a webhook server.</p>
+<h2 id="build-a-webhook-server-with-express">Build a webhook server with Express</h2>
+<p><a href="https://expressjs.com/" target="_blank">Express</a> is a minimal web framework for Node.js, which
+is widely used in Node.js communities. You can surely build a webhook server
+with any web framework, but we use Express as an example here for its
+popularity.</p>
+<p>We skip the detailed guide for Express.  If more information is needed about
+Express, please refer to its documentation.</p>
+<p>Here is an example of an HTTP server built with Express.</p>
+<pre><code class="lang-js"><span class="hljs-keyword">const</span> express = <span class="hljs-built_in">require</span>(<span class="hljs-string">&apos;express&apos;</span>)
+
+<span class="hljs-keyword">const</span> app = express()
+
+app.post(<span class="hljs-string">&apos;/webhook&apos;</span>, (req, res) =&gt; {
+  res.json({})
+})
+
+app.listen(<span class="hljs-number">8080</span>)
+</code></pre>
+<p>The server above listens to 8080 and will response with an empty object for
+<code>POST /webhook</code>. We will add webhook functionality to this server.</p>
+<pre><code class="lang-js"><span class="hljs-keyword">const</span> express = <span class="hljs-built_in">require</span>(<span class="hljs-string">&apos;express&apos;</span>)
+<span class="hljs-keyword">const</span> middleware = <span class="hljs-built_in">require</span>(<span class="hljs-string">&apos;@line/bot-sdk&apos;</span>).middleware
+
+<span class="hljs-keyword">const</span> app = express()
+
+<span class="hljs-keyword">const</span> config = {
+  channelAccessToken: <span class="hljs-string">&apos;YOUR_CHANNEL_ACCESS_TOKEN&apos;</span>,
+  channelSecret: <span class="hljs-string">&apos;YOUR_CHANNEL_SECRET&apos;</span>
+}
+
+app.post(<span class="hljs-string">&apos;/webhook&apos;</span>, middleware(config), (req, res) =&gt; {
+  res.json(req.body.events) <span class="hljs-comment">// req.body will be webhook event object</span>
+})
+
+app.listen(<span class="hljs-number">8080</span>)
+</code></pre>
+<p>We have imported <code>middleware</code> from the package and make the Express app to use
+the middleware. The middlware validates the request and parses webhook event
+object. It embeds body-parser and parses them to objects. If you have a reason
+to use another body-parser separately for other routes, please keep in mind the
+followings.</p>
+<h3 id="do-not-use-the-webhook-middleware-for-other-usual-routes">Do not use the webhook <code>middleware()</code> for other usual routes</h3>
+<pre><code class="lang-js"><span class="hljs-comment">// don&apos;t</span>
+app.use(middleware(config))
+
+<span class="hljs-comment">// do</span>
+app.use(<span class="hljs-string">&apos;/webhook&apos;</span>, middleware(config))
+</code></pre>
+<p>The middleware will throw an exception when the <a href="https://developers.line.me/en/docs/messaging-api/reference/#signature-validation" target="_blank">X-Line-Signature</a>
+header is not set. If you want to handle usual user requests, the middleware
+shouldn&apos;t be used for them.</p>
+<h3 id="do-not-use-another-body-parser-before-the-webhook-middleware">Do not use another body-parser before the webhook <code>middleware()</code></h3>
+<pre><code class="lang-js"><span class="hljs-comment">// don&apos;t</span>
+app.use(bodyParser.json())
+app.use(<span class="hljs-string">&apos;/webhook&apos;</span>, middleware(config))
+
+<span class="hljs-comment">// do</span>
+app.use(<span class="hljs-string">&apos;/webhook&apos;</span>, middleware(config))
+app.use(bodyParser.json())
+</code></pre>
+<p>If another body parser already parsed a request&apos;s body, the webhook middleware
+cannot access to the raw body of the request. The raw body should be retrieved
+for signature validation.</p>
+<p>However, there are environments where <code>req.body</code> is pre-parsed, such as
+<a href="https://firebase.google.com/docs/functions/http-events" target="_blank">Firebase Cloud Functions</a>.
+If it parses the body into string or buffer, the middleware will use the body
+as it is and work just fine. If the pre-parsed body is an object, the webhook
+middleware will fail to work. In the case, please use <a href="../api-reference/validate-signature.html"><code>validateSignature()</code></a>
+manually with raw body.</p>
+<h2 id="error-handling">Error handling</h2>
+<p>There are two types of errors thrown by the middleware, one is <code>SignatureValidationFailed</code>
+and the other is <code>JSONParseError</code>.</p>
+<ul>
+<li><code>SignatureValidationFailed</code> is thrown when a request doesn&apos;t have a signature.</li>
+<li><code>SignatureValidationFailed</code> is thrown when a request has a wrong signature.</li>
+<li><code>JSONParseError</code> occurs when a request body cannot be parsed as JSON.</li>
+</ul>
+<p>For type references of the errors, please refer to <a href="../api-reference/exceptions.html">the API reference</a>.</p>
+<p>The errors can be handled with <a href="https://github.com/senchalabs/connect#error-middleware" target="_blank">error middleware</a>.</p>
+<pre><code class="lang-js"><span class="hljs-keyword">const</span> express = <span class="hljs-built_in">require</span>(<span class="hljs-string">&apos;express&apos;</span>)
+<span class="hljs-keyword">const</span> middleware = <span class="hljs-built_in">require</span>(<span class="hljs-string">&apos;@line/bot-sdk&apos;</span>).middleware
+<span class="hljs-keyword">const</span> JSONParseError = <span class="hljs-built_in">require</span>(<span class="hljs-string">&apos;@line/bot-sdk&apos;</span>).JSONParseError
+<span class="hljs-keyword">const</span> SignatureValidationFailed = <span class="hljs-built_in">require</span>(<span class="hljs-string">&apos;@line/bot-sdk&apos;</span>).SignatureValidationFailed
+
+<span class="hljs-keyword">const</span> app = express()
+
+<span class="hljs-keyword">const</span> config = {
+  channelAccessToken: <span class="hljs-string">&apos;YOUR_CHANNEL_ACCESS_TOKEN&apos;</span>,
+  channelSecret: <span class="hljs-string">&apos;YOUR_CHANNEL_SECRET&apos;</span>
+}
+
+app.use(middleware(config))
+
+app.post(<span class="hljs-string">&apos;/webhook&apos;</span>, (req, res) =&gt; {
+  res.json(req.body.events) <span class="hljs-comment">// req.body will be webhook event object</span>
+})
+
+app.use((err, req, res, next) =&gt; {
+  <span class="hljs-keyword">if</span> (err <span class="hljs-keyword">instanceof</span> SignatureValidationFailed) {
+    res.status(<span class="hljs-number">401</span>).send(err.signature)
+    <span class="hljs-keyword">return</span>
+  } <span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span> (err <span class="hljs-keyword">instanceof</span> JSONParseError) {
+    res.status(<span class="hljs-number">400</span>).send(err.raw)
+    <span class="hljs-keyword">return</span>
+  }
+  next(err) <span class="hljs-comment">// will throw default 500</span>
+})
+
+app.listen(<span class="hljs-number">8080</span>)
+</code></pre>
+<h2 id="https">HTTPS</h2>
+<p>The webhook URL should have HTTPS protocol. There are several ways to build an
+HTTPS server. For example, here is a <a href="https://expressjs.com/en/api.html#app.listen" target="_blank">documentation</a>
+of making Express work with HTTPS. You can also set HTTPS in web servers like
+<a href="https://www.nginx.com/" target="_blank">NGINX</a>. This guide will not cover HTTPS configuration,
+but do not forget to set HTTPS beforehand.</p>
+<p>For development and test usages, <a href="https://ngrok.com/" target="_blank">ngrok</a> works perfectly.</p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="../guide.html" class="navigation navigation-prev " aria-label="Previous page: Guide">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="client.html" class="navigation navigation-next " aria-label="Next page: Client">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Webhook","level":"1.3.1","depth":2,"next":{"title":"Client","level":"1.3.2","depth":2,"path":"pages/guide/client.md","ref":"pages/guide/client.md","articles":[]},"previous":{"title":"Guide","level":"1.3","depth":1,"path":"pages/guide.md","ref":"pages/guide.md","articles":[{"title":"Webhook","level":"1.3.1","depth":2,"path":"pages/guide/webhook.md","ref":"pages/guide/webhook.md","articles":[]},{"title":"Client","level":"1.3.2","depth":2,"path":"pages/guide/client.md","ref":"pages/guide/client.md","articles":[]},{"title":"TypeScript","level":"1.3.3","depth":2,"path":"pages/guide/typescript.md","ref":"pages/guide/typescript.md","articles":[]}]},"dir":"ltr"},"config":{"plugins":[],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"line-bot-sdk-nodejs","gitbook":"3.2.2"},"file":{"path":"pages/guide/webhook.md","mtime":"2017-10-25T03:21:12.000Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-11-02T11:03:00.093Z"},"basePath":"../..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../../gitbook/gitbook.js"></script>
+    <script src="../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

@@ -1,0 +1,678 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Client · line-bot-sdk-nodejs</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.2">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="validate-signature.html" />
+    
+    
+    <link rel="prev" href="../api-reference.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../getting-started.html">
+            
+                <a href="../getting-started.html">
+            
+                    
+                    Getting Started
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="../getting-started/requirements.html">
+            
+                <a href="../getting-started/requirements.html">
+            
+                    
+                    Requirements
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="../getting-started/install.html">
+            
+                <a href="../getting-started/install.html">
+            
+                    
+                    Install
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="../getting-started/basic-usage.html">
+            
+                <a href="../getting-started/basic-usage.html">
+            
+                    
+                    Basic Usage
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../guide.html">
+            
+                <a href="../guide.html">
+            
+                    
+                    Guide
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../guide/webhook.html">
+            
+                <a href="../guide/webhook.html">
+            
+                    
+                    Webhook
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="../guide/client.html">
+            
+                <a href="../guide/client.html">
+            
+                    
+                    Client
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="../guide/typescript.html">
+            
+                <a href="../guide/typescript.html">
+            
+                    
+                    TypeScript
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../api-reference.html">
+            
+                <a href="../api-reference.html">
+            
+                    
+                    API Reference
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter active" data-level="1.4.1" data-path="client.html">
+            
+                <a href="client.html">
+            
+                    
+                    Client
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="validate-signature.html">
+            
+                <a href="validate-signature.html">
+            
+                    
+                    validateSignature
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="middleware.html">
+            
+                <a href="middleware.html">
+            
+                    
+                    middleware
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4" data-path="exceptions.html">
+            
+                <a href="exceptions.html">
+            
+                    
+                    Exceptions
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.5" data-path="message-and-event-objects.html">
+            
+                <a href="message-and-event-objects.html">
+            
+                    
+                    Message and event objects
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="../../CONTRIBUTING.html">
+            
+                <a href="../../CONTRIBUTING.html">
+            
+                    
+                    Contributing
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" >
+            
+                <a target="_blank" href="https://github.com/line/line-bot-sdk-nodejs/">
+            
+                    
+                    GitHub
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../.." >Client</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="new-clientconfig"><code>new Client(config)</code></h1>
+<p><code>Client</code> is a class representing an API client. It provides methods
+corresponding to <a href="https://developers.line.me/en/docs/messaging-api/reference/" target="_blank">messaging APIs</a>.</p>
+<h4 id="type-signature">Type signature</h4>
+<pre><code class="lang-typescript"><span class="hljs-keyword">class</span> Client {
+  <span class="hljs-keyword">public</span> config: ClientConfig
+
+  <span class="hljs-keyword">constructor</span>(config: ClientConfig) {}
+
+  <span class="hljs-comment">// Message</span>
+  pushMessage(to: <span class="hljs-built_in">string</span>, messages: Message | Message[]): Promise&lt;<span class="hljs-built_in">any</span>&gt;
+  replyMessage(replyToken: <span class="hljs-built_in">string</span>, messages: Message | Message[]): Promise&lt;<span class="hljs-built_in">any</span>&gt;
+  multicast(to: <span class="hljs-built_in">string</span>[], messages: Message | Message[]): Promise&lt;<span class="hljs-built_in">any</span>&gt;
+  getMessageContent(messageId: <span class="hljs-built_in">string</span>): Promise&lt;Readable&gt;
+
+  <span class="hljs-comment">// Profile</span>
+  getProfile(userId: <span class="hljs-built_in">string</span>): Promise&lt;Profile&gt;
+
+  <span class="hljs-comment">// Group</span>
+  getGroupMemberProfile(groupId: <span class="hljs-built_in">string</span>, userId: <span class="hljs-built_in">string</span>): Promise&lt;Profile&gt;
+  getGroupMemberIds(groupId: <span class="hljs-built_in">string</span>): Promise&lt;<span class="hljs-built_in">string</span>[]&gt;
+  leaveGroup(groupId: <span class="hljs-built_in">string</span>): Promise&lt;<span class="hljs-built_in">any</span>&gt;
+
+  <span class="hljs-comment">// Room</span>
+  getRoomMemberProfile(roomId: <span class="hljs-built_in">string</span>, userId: <span class="hljs-built_in">string</span>): Promise&lt;Profile&gt;
+  getRoomMemberIds(roomId: <span class="hljs-built_in">string</span>): Promise&lt;<span class="hljs-built_in">string</span>[]&gt;
+  leaveRoom(roomId: <span class="hljs-built_in">string</span>): Promise&lt;<span class="hljs-built_in">any</span>&gt;
+
+  <span class="hljs-comment">// Rich menu</span>
+  getRichMenu(richMenuId: <span class="hljs-built_in">string</span>): Promise&lt;RichMenuResponse&gt;
+  createRichMenu(richMenu: RichMenu): Promise&lt;<span class="hljs-built_in">string</span>&gt;
+  deleteRichMenu(richMenuId: <span class="hljs-built_in">string</span>): Promise&lt;<span class="hljs-built_in">any</span>&gt;
+  getRichMenuIdOfUser(userId: <span class="hljs-built_in">string</span>): Promise&lt;<span class="hljs-built_in">string</span>&gt;
+  linkRichMenuToUser(userId: <span class="hljs-built_in">string</span>, richMenuId: <span class="hljs-built_in">string</span>): Promise&lt;<span class="hljs-built_in">any</span>&gt;
+  unlinkRichMenuFromUser(userId: <span class="hljs-built_in">string</span>, richMenuId: <span class="hljs-built_in">string</span>): Promise&lt;<span class="hljs-built_in">any</span>&gt;
+  getRichMenuImage(richMenuId: <span class="hljs-built_in">string</span>): Promise&lt;Readable&gt;
+  setRichMenuImage(richMenuId: <span class="hljs-built_in">string</span>, data: Buffer | Readable, contentType?: <span class="hljs-built_in">string</span>): Promise&lt;<span class="hljs-built_in">any</span>&gt;
+  getRichMenuList(): Promise&lt;<span class="hljs-built_in">Array</span>&lt;RichMenuResponse&gt;&gt;
+}
+</code></pre>
+<p><code>Message</code> is a valid message object. About message object structure, please
+refer to <a href="message-and-event-objects.html">Message and event objects</a> on this guide, or
+<a href="https://developers.line.me/en/docs/messaging-api/reference/#message-objects" target="_blank">Send message object</a>
+on the official documentation.</p>
+<p><code>ClientConfig</code> type is like below.</p>
+<pre><code class="lang-typescript"><span class="hljs-keyword">interface</span> ClientConfig {
+  channelAccessToken: <span class="hljs-built_in">string</span>;
+  channelSecret?: <span class="hljs-built_in">string</span>;
+}
+</code></pre>
+<h2 id="methods">Methods</h2>
+<p>For a parameter <code>messages: messages: Message | Message[]</code>, you can provide a
+message object or an array of message objects. Both will work, but please beware
+that there can be a limit on the number of the messages to be sent
+simultaneously. About the API detail, please refer to <a href="https://developers.line.me/en/docs/messaging-api/reference/#message-objects" target="_blank">the official documentation</a>.</p>
+<p>For functions returning <code>Promise</code>, there will be errors thrown if something
+goes wrong, such as HTTP errors or parsing errors. You can catch them with the
+<code>.catch()</code> method of the promises. The detailed error handling is explained
+in <a href="../guide/client.html">the Client guide</a>.</p>
+<h3 id="message">Message</h3>
+<h4 id="pushmessageto-string-messages-message--message-promiseany"><code>pushMessage(to: string, messages: Message | Message[]): Promise&lt;any&gt;</code></h4>
+<p>It corresponds to the <a href="https://developers.line.me/en/docs/messaging-api/reference/#send-push-message" target="_blank">Push message</a> API.</p>
+<p>The first argument is an ID of a receiver, and the second is messages to be sent.</p>
+<pre><code class="lang-js">client.pushMessage(<span class="hljs-string">&apos;user_or_group_or_room_id&apos;</span>, {
+  type: <span class="hljs-string">&apos;text&apos;</span>,
+  text: <span class="hljs-string">&apos;hello, world&apos;</span>,
+})
+</code></pre>
+<h4 id="replymessagereplytoken-string-messages-message--message-promiseany"><code>replyMessage(replyToken: string, messages: Message | Message[]): Promise&lt;any&gt;</code></h4>
+<p>It corresponds to the <a href="https://developers.line.me/en/docs/messaging-api/reference/#send-reply-message" target="_blank">Reply message</a> API.</p>
+<p>The first argument is a reply token, which is retrieved from a webhook event
+object. For the list of replyable events, please refer to <a href="https://developers.line.me/en/docs/messaging-api/reference/#webhook-event-objects" target="_blank">Webhook event object</a>
+of the official documentation. The second argument is the same with one in <code>pushMessage()</code>.</p>
+<pre><code class="lang-js">client.replyMessage(event.replyToken, {
+  type: <span class="hljs-string">&apos;text&apos;</span>,
+  text: <span class="hljs-string">&apos;hello, world&apos;</span>,
+})
+</code></pre>
+<h4 id="multicastto-string-messages-message--message-promiseany"><code>multicast(to: string[], messages: Message | Message[]): Promise&lt;any&gt;</code></h4>
+<p>It corresponds to the <a href="https://developers.line.me/en/docs/messaging-api/reference/#send-multicast-messages" target="_blank">Multicast</a> API.</p>
+<p>The first argument is a list of receiver IDs, and the second is messages to be
+sent.</p>
+<pre><code class="lang-js">client.multicast([<span class="hljs-string">&apos;user_id_1&apos;</span>, <span class="hljs-string">&apos;user_id_2&apos;</span>, <span class="hljs-string">&apos;room_id_1&apos;</span>], {
+  type: <span class="hljs-string">&apos;text&apos;</span>,
+  text: <span class="hljs-string">&apos;hello, world&apos;</span>,
+})
+</code></pre>
+<h4 id="getmessagecontentmessageid-string-promisereadable"><code>getMessageContent(messageId: string): Promise&lt;Readable&gt;</code></h4>
+<p>It corresponds to the <a href="https://developers.line.me/en/docs/messaging-api/reference/#get-content" target="_blank">Content</a> API.</p>
+<p>The argument is an ID of media messages, such as image, video, and audio. The ID
+can be retrieved from a message object of a message event.</p>
+<p>Please beware that what it returns is promise of <a href="https://nodejs.org/dist/latest/docs/api/stream.html#stream_readable_streams" target="_blank">readable stream</a>.
+You can pipe the stream into a file, an HTTP response, etc.</p>
+<pre><code class="lang-js">client.getMessageContent(<span class="hljs-string">&apos;message_id&apos;</span>)
+  .then((stream) =&gt; {
+    stream.on(<span class="hljs-string">&apos;data&apos;</span>, (chunk) =&gt; {
+      ...
+    })
+    stream.on(<span class="hljs-string">&apos;error&apos;</span>, (err) =&gt; {
+      ...
+    })
+    stream.pipe(...)
+  })
+</code></pre>
+<h3 id="profile">Profile</h3>
+<h4 id="getprofileuserid-string-promiseprofile"><code>getProfile(userId: string): Promise&lt;Profile&gt;</code></h4>
+<p>It corresponds to the <a href="https://developers.line.me/en/docs/messaging-api/reference/#get-profile" target="_blank">Profile</a> API.</p>
+<p>The argument is a user ID.</p>
+<pre><code class="lang-js">client.getProfile(<span class="hljs-string">&apos;user_id&apos;</span>).then((profile) =&gt; {
+  <span class="hljs-built_in">console</span>.log(profile);
+});
+</code></pre>
+<h3 id="group">Group</h3>
+<h4 id="getgroupmemberprofilegroupid-string-userid-string-promiseprofile"><code>getGroupMemberProfile(groupId: string, userId: string): Promise&lt;Profile&gt;</code></h4>
+<p>It corresponds to the <a href="https://developers.line.me/en/docs/messaging-api/reference/#get-group-member-profile" target="_blank">Group Member Profile</a> API.</p>
+<p>The arguments are a group ID and an ID of a user in the group. Please refer to
+the official documentation for the difference between this API and <code>getProfile()</code>.</p>
+<pre><code class="lang-js">client.getGroupMemberProfile(<span class="hljs-string">&apos;group_id&apos;</span>, <span class="hljs-string">&apos;user_id&apos;</span>).then((profile) =&gt; {
+  <span class="hljs-built_in">console</span>.log(profile);
+})
+</code></pre>
+<h4 id="getgroupmemberidsgroupid-string-promisestring"><code>getGroupMemberIds(groupId: string): Promise&lt;string[]&gt;</code></h4>
+<p>It corresponds to the <a href="https://developers.line.me/en/docs/messaging-api/reference/#get-group-member-user-ids" target="_blank">Group Member IDs</a> API.</p>
+<p><em>FYI: This feature is only available for LINE@ Approved accounts or official accounts.</em></p>
+<p>The argument is a group ID and the method returns a promise of an array of user IDs.</p>
+<pre><code class="lang-js">client.getGroupMemberIds(<span class="hljs-string">&apos;group_id&apos;</span>).then((ids) =&gt; {
+  ids.forEach((id) =&gt; <span class="hljs-built_in">console</span>.log(id));
+})
+</code></pre>
+<h4 id="leavegroupgroupid-string-promiseany"><code>leaveGroup(groupId: string): Promise&lt;any&gt;</code></h4>
+<p>It corresponds to the <a href="https://developers.line.me/en/docs/messaging-api/reference/#leave-group" target="_blank">Leave group</a> API.</p>
+<p>The argument is a group ID.</p>
+<pre><code class="lang-js">client.leaveGroup(<span class="hljs-string">&apos;group_id&apos;</span>)
+</code></pre>
+<h3 id="room">Room</h3>
+<h4 id="getroommemberprofileroomid-string-userid-string-promiseprofile"><code>getRoomMemberProfile(roomId: string, userId: string): Promise&lt;Profile&gt;</code></h4>
+<p>It corresponds to the <a href="https://developers.line.me/en/docs/messaging-api/reference/#get-room-member-profile" target="_blank">Room Member Profile</a> API.</p>
+<p>The arguments are a room ID and an ID of a user in the room. Please refer to the
+official documentation for the difference between this API and <code>getProfile()</code>.</p>
+<pre><code class="lang-js">client.getRoomMemberProfile(<span class="hljs-string">&apos;room_id&apos;</span>, <span class="hljs-string">&apos;user_id&apos;</span>).then((profile) =&gt; {
+  <span class="hljs-built_in">console</span>.log(profile);
+})
+</code></pre>
+<h4 id="getroommemberidsroomid-string-promisestring"><code>getRoomMemberIds(roomId: string): Promise&lt;string[]&gt;</code></h4>
+<p>It corresponds to the <a href="https://developers.line.me/en/docs/messaging-api/reference/#get-room-member-user-ids" target="_blank">Room Member IDs</a> API.</p>
+<p><em>FYI: This feature is only available for LINE@ Approved accounts or official accounts.</em></p>
+<p>The argument is a room ID and the method returns a promise of an array of user IDs.</p>
+<pre><code class="lang-js">client.getRoomMemberIds(<span class="hljs-string">&apos;room_id&apos;</span>).then((ids) =&gt; {
+  ids.forEach((id) =&gt; <span class="hljs-built_in">console</span>.log(id));
+})
+</code></pre>
+<h4 id="leaveroomroomid-string-promiseany"><code>leaveRoom(roomId: string): Promise&lt;any&gt;</code></h4>
+<p>It corresponds to the <a href="https://developers.line.me/en/docs/messaging-api/reference/#leave-room" target="_blank">Leave room</a> API.</p>
+<p>The argument is a room ID.</p>
+<pre><code class="lang-js">client.leaveGroup(<span class="hljs-string">&apos;room_id&apos;</span>)
+</code></pre>
+<h3 id="rich-menu">Rich menu</h3>
+<h4 id="getrichmenurichmenuid-string-promiserichmenuresponse"><code>getRichMenu(richMenuId: string): Promise&lt;RichMenuResponse&gt;</code></h4>
+<p>It corresponds to the <a href="https://developers.line.me/en/docs/messaging-api/reference/#get-rich-menu" target="_blank">Get rich menu</a> API.</p>
+<p>The argument is a rich menu ID. The return type is <a href="https://developers.line.me/en/docs/messaging-api/reference/#rich-menu-response-object" target="_blank">a rich menu response object</a>.</p>
+<pre><code class="lang-js">client.getRichMenu(<span class="hljs-string">&apos;rich_menu_id&apos;</span>).then((richMenu) =&gt; {
+  <span class="hljs-built_in">console</span>.log(richMenu.size);
+  <span class="hljs-built_in">console</span>.log(richMenu.areas[<span class="hljs-number">0</span>].bounds);
+})
+</code></pre>
+<h4 id="createrichmenurichmenu-richmenu-promisestring"><code>createRichMenu(richMenu: RichMenu): Promise&lt;string&gt;</code></h4>
+<p>It corresponds to the <a href="https://developers.line.me/en/docs/messaging-api/reference/#create-rich-menu" target="_blank">Create rich menu</a> API.</p>
+<p>The argument is <a href="https://developers.line.me/en/docs/messaging-api/reference/#rich-menu-object" target="_blank">a rich menu object</a>.
+For the detail of the object format, please refer to the official documentation.
+It returns the result rich menu ID.</p>
+<pre><code class="lang-js">client.createRichMenu({ size: { width: <span class="hljs-number">2500</span>, height: <span class="hljs-number">1686</span> }, ... })
+  .then((richMenuId) =&gt; <span class="hljs-built_in">console</span>.log(richMenuId))
+</code></pre>
+<h4 id="deleterichmenurichmenuid-string-promiseany"><code>deleteRichMenu(richMenuId: string): Promise&lt;any&gt;</code></h4>
+<p>It corresponds to the <a href="https://developers.line.me/en/docs/messaging-api/reference/#delete-rich-menu" target="_blank">Delete rich menu</a> API.</p>
+<p>The argument is a rich menu ID.</p>
+<pre><code class="lang-js">client.deleteRichMenu(<span class="hljs-string">&apos;rich_menu_id&apos;</span>)
+</code></pre>
+<h4 id="getrichmenuidofuseruserid-string-promisestring"><code>getRichMenuIdOfUser(userId: string): Promise&lt;string&gt;</code></h4>
+<p>It corresponds to the <a href="https://developers.line.me/en/docs/messaging-api/reference/#get-rich-menu-id-of-user" target="_blank">Get rich menu ID of user</a> API.</p>
+<p>The argument is a user ID. It returns a rich menu ID to be used with other APIs.</p>
+<pre><code class="lang-js">client.getRichMenuIdOfUser(<span class="hljs-string">&apos;user_id&apos;</span>).then((richMenuId) =&gt; {
+  <span class="hljs-built_in">console</span>.log(richMenuId);
+})
+</code></pre>
+<h4 id="linkrichmenutouseruserid-string-richmenuid-string-promiseany"><code>linkRichMenuToUser(userId: string, richMenuId: string): Promise&lt;any&gt;</code></h4>
+<p>It corresponds to the <a href="https://developers.line.me/en/docs/messaging-api/reference/#link-rich-menu-to-user" target="_blank">Link rich menu to user</a> API.</p>
+<p>The arguments are a user ID and a rich menu ID.</p>
+<pre><code class="lang-js">client.linkRichMenuToUser(<span class="hljs-string">&apos;user_id&apos;</span>, <span class="hljs-string">&apos;rich_menu_id&apos;</span>)
+</code></pre>
+<h4 id="unlinkrichmenufromuseruserid-string-richmenuid-string-promiseany"><code>unlinkRichMenuFromUser(userId: string, richMenuId: string): Promise&lt;any&gt;</code></h4>
+<p>It corresponds to the <a href="https://developers.line.me/en/docs/messaging-api/reference/#unlink-rich-menu-from-user" target="_blank">Unlink rich menu from user</a> API.</p>
+<p>The arguments are a user ID and a rich menu ID.</p>
+<pre><code class="lang-js">client.unlinkRichMenuFromUser(<span class="hljs-string">&apos;user_id&apos;</span>, <span class="hljs-string">&apos;rich_menu_id&apos;</span>)
+</code></pre>
+<h4 id="getrichmenuimagerichmenuid-string-promisereadable"><code>getRichMenuImage(richMenuId: string): Promise&lt;Readable&gt;</code></h4>
+<p>It corresponds to the <a href="https://developers.line.me/en/docs/messaging-api/reference/#download-rich-menu-image" target="_blank">Download rich menu image</a> API.</p>
+<p>The argument is a rich menu ID.</p>
+<p>Please beware that what it returns is promise of <a href="https://nodejs.org/dist/latest/docs/api/stream.html#stream_readable_streams" target="_blank">readable stream</a>.
+You can pipe the stream into a file, an HTTP response, etc.</p>
+<pre><code class="lang-js">client.getRichMenuImage(<span class="hljs-string">&apos;rich_menu_id&apos;</span>)
+  .then((stream) =&gt; {
+    stream.on(<span class="hljs-string">&apos;data&apos;</span>, (chunk) =&gt; {
+      ...
+    })
+    stream.on(<span class="hljs-string">&apos;error&apos;</span>, (err) =&gt; {
+      ...
+    })
+    stream.pipe(...)
+  })
+</code></pre>
+<h4 id="setrichmenuimagerichmenuid-string-data-buffer--readable-contenttype-string-promiseany"><code>setRichMenuImage(richMenuId: string, data: Buffer | Readable, contentType?: string): Promise&lt;any&gt;</code></h4>
+<p>It corresponds to the <a href="https://developers.line.me/en/docs/messaging-api/reference/#upload-rich-menu-image" target="_blank">Upload rich menu image</a> API.</p>
+<p>The 1st argument is a rich menu ID. For 2nd argument, a buffer or a readable
+stream of an image should be provided. For the restriction of the image, please
+refer to the official documentation. The last argument is optional. If it&apos;s not
+provided, the mime type will be guessted from <code>data</code>. Only <code>image/jpeg</code> or
+<code>image/png</code> is allowed for the content type.</p>
+<pre><code class="lang-js">client.setRichMenuImage(<span class="hljs-string">&apos;rich_menu_id&apos;</span>, fs.createReadStream(<span class="hljs-string">&apos;./some_image.png&apos;</span>))
+</code></pre>
+<h4 id="getrichmenulist-promisearrayrichmenuresponse"><code>getRichMenuList(): Promise&lt;Array&lt;RichMenuResponse&gt;&gt;</code></h4>
+<p>It corresponds to the <a href="https://developers.line.me/en/docs/messaging-api/reference/#get-rich-menu-list" target="_blank">Get rich menu list</a> API.</p>
+<p>The return type is a list of <a href="https://developers.line.me/en/docs/messaging-api/reference/#rich-menu-response-object" target="_blank">rich menu response objects</a>.</p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="../api-reference.html" class="navigation navigation-prev " aria-label="Previous page: API Reference">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="validate-signature.html" class="navigation navigation-next " aria-label="Next page: validateSignature">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Client","level":"1.4.1","depth":2,"next":{"title":"validateSignature","level":"1.4.2","depth":2,"path":"pages/api-reference/validate-signature.md","ref":"pages/api-reference/validate-signature.md","articles":[]},"previous":{"title":"API Reference","level":"1.4","depth":1,"path":"pages/api-reference.md","ref":"pages/api-reference.md","articles":[{"title":"Client","level":"1.4.1","depth":2,"path":"pages/api-reference/client.md","ref":"pages/api-reference/client.md","articles":[]},{"title":"validateSignature","level":"1.4.2","depth":2,"path":"pages/api-reference/validate-signature.md","ref":"pages/api-reference/validate-signature.md","articles":[]},{"title":"middleware","level":"1.4.3","depth":2,"path":"pages/api-reference/middleware.md","ref":"pages/api-reference/middleware.md","articles":[]},{"title":"Exceptions","level":"1.4.4","depth":2,"path":"pages/api-reference/exceptions.md","ref":"pages/api-reference/exceptions.md","articles":[]},{"title":"Message and event objects","level":"1.4.5","depth":2,"path":"pages/api-reference/message-and-event-objects.md","ref":"pages/api-reference/message-and-event-objects.md","articles":[]}]},"dir":"ltr"},"config":{"plugins":[],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"line-bot-sdk-nodejs","gitbook":"3.2.2"},"file":{"path":"pages/api-reference/client.md","mtime":"2017-11-02T10:19:31.000Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-11-02T11:03:00.093Z"},"basePath":"../..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../../gitbook/gitbook.js"></script>
+    <script src="../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
