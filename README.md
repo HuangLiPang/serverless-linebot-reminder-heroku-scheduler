@@ -1,8 +1,8 @@
-LineBot Reminder with Heroku Scheduler
+Serverless LineBot Reminder builds on Heroku Scheduler
 ---
 [![npmjs](https://badge.fury.io/js/%40line%2Fbot-sdk.svg)](https://www.npmjs.com/package/@line/bot-sdk)
 
-A line-bot reminder builds on Heroku addon Scheduler
+A serverless line-bot reminder builds on Heroku addon Scheduler
 
 Requirements
 ---
