@@ -35,7 +35,7 @@ Install line-bot-sdk-nodejs
 npm install @line/bot-sdk --save
 ```
 
-reminder.js
+[reminder.js](./reminder.js)
 ```javascript
 'use strict';
 const line = require('@line/bot-sdk');
